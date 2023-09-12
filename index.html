@@ -389,6 +389,12 @@
                 <!-- Contact Form -->
                 <div class="col-md-6 contact">
                     <form action="index.php" method="post" role="form" a>
+                         <strong>
+                            <?php if (!empty($msg1)){
+                       echo $msg1;
+                       }
+                       ?>
+                        </strong>
                         <!-- Name -->
                         <div class="row">
                             <div class="col-md-6">
